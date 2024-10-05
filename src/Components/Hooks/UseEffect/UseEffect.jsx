@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import UseEffectS from './UseEffectS';
 
 const UseEffect = () => {
     const [counter, setCounter] = useState(0);
@@ -23,6 +24,8 @@ const UseEffect = () => {
       <div className='wrapper'>
          <h2>Counter: {counter}</h2>
       </div>
+
+      <UseEffectS/>
     </section>
   )
 }
