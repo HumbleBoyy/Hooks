@@ -13,7 +13,7 @@ const UseState = () => {
   }
   return (
     <section>
-      <h1>UseState Hook</h1>
+      <h1>UseState</h1>
       <div className='description_wrapper'>
         <p className='description'>
         What is the useState Hook? useState is React Hook that allows you to add state to a functional component. 
