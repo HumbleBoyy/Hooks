@@ -2,6 +2,8 @@ import React from 'react'
 import UseState from '../Hooks/UseState/UseState'
 import UseEffect from '../Hooks/UseEffect/UseEffect'
 import UseReducer from '../Hooks/UseReducer/UseReducer'
+import UseRef from '../Hooks/UseRef/UseRef'
+import UseLayoutEffect from '../Hooks/UseLayoutEffect/UseLayoutEffect'
 
 const Main = () => {
   return (
@@ -12,6 +14,8 @@ const Main = () => {
       <UseState/>
       <UseEffect/>
       <UseReducer/>
+      <UseRef/>
+      <UseLayoutEffect/>
     </>
   )
 }

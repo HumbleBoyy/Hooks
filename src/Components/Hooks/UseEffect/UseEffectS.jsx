@@ -6,7 +6,7 @@ const UseEffectS = () => {
     const [count, setCount] = useState(0);
 
     useEffect(()=> {
-        axios.get('https://jsonplaceholder.typicode.com/posts')
+        axios.get('https://jsonplaceholder.typicode.com/albums')
         .then((res)=> {
             setData(res.data[1].title)
             console.log("Message Called")
