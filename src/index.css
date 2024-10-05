@@ -50,3 +50,11 @@ body{
    background-color: crimson;
    border: 1px solid crimson;
 }
+
+.wrapper input {
+   padding: 10px 30px;
+   color: black;
+   font-size: 1rem;
+   outline: none;
+   border: 3px solid rgb(0, 198, 253);
+}

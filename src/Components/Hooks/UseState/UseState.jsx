@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 const UseState = () => {
 
     const [count, setCount] = useState(0);
+    const [inputValue, setInputValue] = useState('')
 
     const handleCount = () =>{
         setCount(count + 1)
@@ -24,6 +25,13 @@ const UseState = () => {
         <button onClick={handleSecond} className='btn btnRed'>-</button>
         <h2 className='counter'>{count}</h2>
         <button onClick={handleCount} className='btn'>+</button>
+      </div>
+      <div className='wrapper'>
+      <input type="text"  placeholder='Type....'
+         value={inputValue}
+         onChange={(e)=> setInputValue(e.target.value)}
+        />
+        <p>{inputValue}</p>
       </div>
     </section>
   )
