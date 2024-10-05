@@ -4,6 +4,7 @@ import UseEffect from '../Hooks/UseEffect/UseEffect'
 import UseReducer from '../Hooks/UseReducer/UseReducer'
 import UseRef from '../Hooks/UseRef/UseRef'
 import UseLayoutEffect from '../Hooks/UseLayoutEffect/UseLayoutEffect'
+import UseContext from '../Hooks/UseContext/UseContext'
 
 const Main = () => {
   return (
@@ -16,6 +17,7 @@ const Main = () => {
       <UseReducer/>
       <UseRef/>
       <UseLayoutEffect/>
+      <UseContext/>
     </>
   )
 }

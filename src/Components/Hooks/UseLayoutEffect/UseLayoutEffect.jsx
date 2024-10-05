@@ -4,11 +4,11 @@ const UseLayoutEffect = () => {
 
 
     useEffect(()=> {
-        alert("UseEffect") 
+        console.log("UseEffect") 
     }, []);
 
     useLayoutEffect(()=> {
-        alert("UseLayout")
+        console.log("UseLayout")
     },[])
   return (
     <section>
